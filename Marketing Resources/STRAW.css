@@ -1,0 +1,16 @@
+.questionbox {
+    border: 1px black solid;
+    margin: auto;
+}
+
+.homebutton {
+    float: right;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible !important;
+}
