@@ -8,7 +8,7 @@ const q1_5 = document.getElementById('q1_5');
 
 const q1checkbox = document.getElementsByClassName("q1checkbox");
 for (let i = 0; i < q1checkbox.length; i++) {
-    q1checkbox[i].addEventListener('click', displayQ1Answer);
+    q1checkbox[i].addEventListener('change', displayQ1Answer);
 }
 
 function displayQ1Answer() {
